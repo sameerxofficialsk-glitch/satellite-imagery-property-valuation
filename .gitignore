@@ -1,0 +1,13 @@
+# Large data & artifacts
+images/
+models/*.pkl
+outputs/
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
