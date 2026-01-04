@@ -1,4 +1,4 @@
-# Multimodal Model for House Price Prediction
+# Multimodal Model for Satellite imagery based House Price Prediction
 
 ## Overview
 This project predicts house prices using a **multimodal machine learning pipeline** that combines:
@@ -11,39 +11,27 @@ The goal is to evaluate whether satellite images add value beyond strong tabular
 
 ## Repository Structure
 ```
-Multimodal-Model-for-House-Price-Prediction/
+satellite-imagery-property-valuation/
 │
 ├── data/
-│ ├── train.csv
-│ └── test.csv
-│
-├── images/
-│ └── <property_id>/
-│     └── *.jpg
+│   ├── test.csv
+│   └── train.csv
 │
 ├── notebooks/
-│ ├── 01_preprocessing.ipynb
-│ ├── 02_tabular_baseline_models.ipynb
-│ ├── 03_data_fetcher.ipynb
-│ ├── 04_image_embeddings.ipynb
-│ └── 05_model_training.ipynb
-│
-├── models/
-│ ├── tabular_xgb_model.pkl
-│ ├── multimodal_xgb_model.pkl
-│ ├── image_embeddings.pkl
-│ └── scaler.pkl
-│
-├── outputs/
-│ ├── baseline_predictions/
-│ │ ├── rf_tabular_predictions.csv
-│ │ └── xgb_tabular_predictions.csv
-│ └── final_submission.csv
+│   ├── 01_preprocessing.ipynb
+│   ├── 02_tabular_baseline_models.ipynb
+│   ├── 03_data_fetcher.ipynb
+│   ├── 04_image_embeddings.ipynb
+│   └── 05_model_training.ipynb
 │
 ├── src/
-│ └── data_fetcher.py
+│   └── data_fetcher.py
 │
+├── .gitignore
+├── 24322024_final.csv
+├── 24322024_report.pdf
 └── README.md
+
 ```
 ---
 
